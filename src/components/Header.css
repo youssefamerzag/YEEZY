@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff6cc;
+    font-size: 18px;
+}
+
+
+.navBar p{
+    margin: 5px 30px;
+    transition: 0.3s;
+}
+
+.navBar p:hover{
+    transition: 0.3s;
+    color: #a47e1b;
+}
+
+
+.lefttSide {
+    display: flex;
+    justify-content: left;
+}
+
+.rightSide {
+    display: flex;
+}
+
+
+.Head {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-image: url('/public/imgs/adidas.jpg');
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.HeadContent p{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 115px 0px 50px 0px;
+}
+
+.HeadContent button {
+    display: flex;
+    align-items: center;
+    width: 170px; 
+    padding: 15px;
+    background-color: black;
+    border: none;
+    color: #fff6cc;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.4) -4px 4px, rgba(63, 63, 63, 0.3) -9px 9px;
+    transition: 0.2s;
+}
+
+.HeadContent button:hover {
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.4) -7px 7px, rgba(63, 63, 63, 0.3) -12px 12px;
+    background-color: #fff6cc;
+    color: black;
+}
+
+.categoris {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.category {
+    box-shadow: -0px -120px 5px rgba(0, 0, 0, 0.589) inset;
+}
+
+.shop_btn {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  color: #000000;
+  background-color: #fff6cc;
+  transition: 0.2s;
+}
+
+.shop_btn:hover {
+    background-color: black;
+    color: #fff6cc;
+    transition: 0.2s;
+}

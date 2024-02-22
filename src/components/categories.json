@@ -1,0 +1,6 @@
+[
+    {"name" : "SHOES", "src" : "./imgs/categories/Shoes.jpeg"},
+    {"name" : "SLIDES", "src" : "./imgs/categories/SLIDE.webp"},
+    {"name" : "CLOTHES", "src" : "./imgs/categories/CLOTHES.jpg"},
+    {"name" : "ALBUMS" , "src" : "./imgs/categories/albumCover.jpg"}
+]
