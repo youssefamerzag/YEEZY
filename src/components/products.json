@@ -1,0 +1,12 @@
+[
+    {
+        "shoes" : [
+            {"name" : "YEEZY 700 V3" ,"price" : "250$","category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY 700 V3.jpg"},
+            {"name" : "YEEZY BOOST 380","price" : "205$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 380.jpg"},
+            {"name" : "YEEZY BOOST 700","price" : "269$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 700.jpg"},
+            {"name" : "YEEZY 500" ,"price" : "300$","category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY 500.jpg"},
+            {"name" : "YEEZY BOOST 350 V2","price" : "220$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 350 V2.jpg"},
+            {"name" : "YEEZY BOOST 700 MNVN","price" : "270$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 700 MNVN.jpg"}
+        ]
+    }
+]

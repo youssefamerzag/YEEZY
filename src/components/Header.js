@@ -25,13 +25,9 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className='categoris'>
-                {data.map((category , index) => 
-                    <div className='category' key={index} style={{justifyContent : "flex-end", display : "flex" , flexDirection : "column" ,backgroundImage : `url(${category.src})`, backgroundSize : "cover" ,width : "250px", height : "350px" , margin : "10px" , padding :"20px"}}>
-                        <p style={{fontSize : "40px" ,fontWeight : 900, color :"#fff6cc"}}>{category.name}</p>
-                        <button className='shop_btn'>Shop Now</button>
-                    </div>
-                )}
+            
+            <div className='tag'>
+                <img src='./imgs/maxresdefault.png'></img>
             </div>
         </div>
     )
