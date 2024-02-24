@@ -8,5 +8,14 @@
             {"name" : "YEEZY BOOST 350 V2","price" : "220$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 350 V2.jpg"},
             {"name" : "YEEZY BOOST 700 MNVN","price" : "270$" ,"category" : "shoes" ,"src" : "./imgs/Shoes/YEEZY BOOST 700 MNVN.jpg"}
         ]
+    },
+    {
+        "clothes" : [
+            {"name" : "BOX T BLACK" ,"price" : "250$","category" : "clothes" ,"front" : "./imgs/Clothes/clothe 1 front.avif", "back" : "./imgs/Clothes/clothe 1 back.avif"},
+            {"name" : "VULTURES WHITE LONG T","price" : "205$" ,"category" : "clothes" ,"front" : "./imgs/Clothes/clothe 2 front.avif", "back" : "./imgs/Clothes/clothe 2 back.avif"},
+            {"name" : "VULTURES BLACK LONG T","price" : "269$" ,"category" : "clothes" ,"front" : "./imgs/Clothes/clothe 3 front.avif", "back" : "./imgs/Clothes/clothe 2 back.avif"},
+            {"name" : "BOX T WHITE" ,"price" : "300$","category" : "clothes" ,"front" : "./imgs/Clothes/clothe 4 front.avif", "back" : "./imgs/Clothes/clothe 4 back.avif"},
+            {"name" : "VULTURES PANT BLACK","price" : "220$" ,"category" : "clothes" ,"front" : "./imgs/Clothes/clothe 5 front.avif", "back" : "./imgs/Clothes/clothe 5 back.avif"}
+        ]
     }
 ]

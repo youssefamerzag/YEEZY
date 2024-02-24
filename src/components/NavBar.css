@@ -1,0 +1,17 @@
+
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue ;
+}
+
+.navLinks a{
+    margin: 5px;
+}

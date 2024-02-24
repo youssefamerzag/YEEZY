@@ -51,6 +51,23 @@ const Home = () => {
                 )}
                 </Slider>
             </div>
+
+            <div className='clothes'>
+                <Slider {...settings}>
+                    {products[1].clothes.map((clothe , index) => 
+                        <a href='#' className='clothe' key={index} >
+                            <div className='clothe-img' style={{backgroundImage: `url('${clothe.front}')`, backgroundPosition : "top", backgroundRepeat : "no-repeat",  width : "300px" , height : "400px" ,}} onMouseEnter={(e) => e.target.style.backgroundImage = `url('${clothe.back}')`} onMouseLeave={(e) => e.target.style.backgroundImage = `url('${clothe.front}')`}></div>
+                            <p>{clothe.name}</p>
+                            <p style={{color : "gray"}}>{clothe.category}</p>
+                            <p>{clothe.price}</p>
+                        </a>
+                    )}
+                </Slider>
+            </div>
+
+            <div className='banner'>
+
+            </div>
         </div>
     )
 }
